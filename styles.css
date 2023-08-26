@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=IM+Fell+English&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(180deg, rgba(205,168,130,1) 0%, rgba(243,236,225,1) 100%);
+    color: #744a38;
+    font-family: 'IM Fell English', serif;
+    max-width: 700px;
+    padding-bottom: 20px;
+    margin: 0 auto;
+}
+
+main {
+    max-width: 700px;
+    min-width: 481px; 
+}
+
+h1 {
+    color: #5f3e2f;
+    font-family: 'Cinzel', serif;
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: 1%;
+}
+
+figure > img {
+    width: 600px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: block;
+    margin-top: -50px;
+}
+
+figcaption {
+    text-align: center;
+    color: #744a38;
+    font-size: 2.4rem;
+}
+
+.separator {
+    width: 47%;
+    height: 1px;
+    margin: 30px auto;
+    background-color: #cda882; 
+    box-shadow: 3px 0 10px 1px #cda882;
+}
+
+#tribute-info {
+    margin: 0 auto;
+    border: 2px solid #cda882;
+    border-radius: 15px;
+    padding: 10px;
+    background: linear-gradient(180deg, #cda882 0%, #e7d7c1 100%);
+    margin-bottom: 10px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+ul {
+    list-style-type: none;
+    font-weight: 400;
+   
+}
+
+ul li {
+    margin: 7px auto;
+    font-size: 1.5rem;
+}
+
+.card {
+    padding: 0;
+    border: 2px solid #cda882;
+    border-radius: 15px;
+    background: linear-gradient(180deg, #cda882 0%, #e7d7c1 100%);
+}
+
+.container {
+    display: flex;
+    font-size: 1.5rem;
+}
+
+.container > div {
+    padding: 15px;
+    max-width: 60%;
+}
+
+p {
+    padding-top: 5px;
+}
+
+.meditations {
+    display: block;
+    width: 40%;
+    border-radius: 0 15px 15px 0;
+    max-width: 40%;
+    filter: brightness(130%);
+}
+
+.link {
+    display: flex;
+    align-items: center;
+}
+
+a {
+    background-color: #ba8455;
+    box-shadow: 0 4px 0 #321e18;
+    color: white;
+    font-size: 1.3em;
+    padding: 4px 8px; 
+    text-decoration: none;
+    border-radius: 15px;
+    margin-left: 4px;
+}
+
+a:hover {
+    background-color: #ad7149;
+    cursor: pointer;
+}
+
+a:active {
+    background-color: #905b3e;
+    box-shadow: none;
+    top: 5px;
+}
+
+@media (max-width: 730px) {
+
+     ul li {
+        font-size: 3.5vmax;
+    } 
+
+    .container {
+        font-size: 3.5vmax;
+    }
+
+    .meditations {
+        margin: 0 auto;
+    }
+
+    figcaption {
+        padding-left: 0.3em;
+        padding-right: 0.3em;
+    }
+
+    #tribute-info, section, .link {
+        margin-left: 0.5em;
+        margin-right: 0.5em;
+    }
+
+    .link {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+        margin-bottom: 1%;
+    }
+} 
